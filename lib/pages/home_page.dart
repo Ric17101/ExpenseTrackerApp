@@ -42,31 +42,37 @@ class _HomePageState extends State<HomePage> {
           });
         },
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _selected,
-        showSelectedLabels: false,
-        showUnselectedLabels: false,
-        backgroundColor: Colors.white,
-        elevation: 3,
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(
-              CupertinoIcons.home,
-              fill: 1,
+      bottomNavigationBar: Theme(
+        data: Theme.of(context).copyWith(
+          splashColor: Colors.transparent,
+          highlightColor: Colors.transparent,
+        ),
+        child: BottomNavigationBar(
+          currentIndex: _selected,
+          showSelectedLabels: false,
+          showUnselectedLabels: false,
+          backgroundColor: Colors.white,
+          elevation: 3,
+          items: const [
+            BottomNavigationBarItem(
+              icon: Icon(
+                CupertinoIcons.home,
+                fill: 1,
+              ),
+              label: "Home",
             ),
-            label: "Home",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              CupertinoIcons.graph_square_fill,
-              fill: 1,
+            BottomNavigationBarItem(
+              icon: Icon(
+                CupertinoIcons.graph_square_fill,
+                fill: 1,
+              ),
+              label: "Stats",
             ),
-            label: "Stats",
-          ),
-        ],
-        onTap: (int selected) {
-          _controller.jumpToPage(selected);
-        },
+          ],
+          onTap: (int selected) {
+            _controller.jumpToPage(selected);
+          },
+        ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(

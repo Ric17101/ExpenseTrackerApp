@@ -18,9 +18,12 @@ class MyApp extends StatelessWidget {
           title: 'Flutter Demo',
           theme: ThemeData(
             colorScheme: ColorScheme.light(
+              surface: Colors.grey.shade100,
+              onSurface: Colors.black,
               secondary: Colors.white,
               primary: Colors.blue,
               tertiary: Colors.blueAccent,
+              outline: Colors.grey.shade400,
             ),
             useMaterial3: true,
           ),
