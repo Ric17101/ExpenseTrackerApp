@@ -1,6 +1,6 @@
 import 'package:async_redux/async_redux.dart';
-import 'package:expense_tracker_app/page/todo_page/todo_page_connector.dart';
-import 'package:expense_tracker_app/state/app_state.dart';
+import 'package:fin_tracker_app/page/todo_page/todo_page_connector.dart';
+import 'package:fin_tracker_app/state/app_state.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {

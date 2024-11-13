@@ -1,5 +1,5 @@
-name: expense_tracker_app
-description: "A flutter app that can be used to Track your budget or expenses offline"
+name: fin_tracker_app
+description: "A flutter app that can be used to Track your financial expenses Offline"
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1

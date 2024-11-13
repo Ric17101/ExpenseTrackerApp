@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.flutter.expense_tracker_app">
+    package="com.finance.tracker.flutter.app">
     <application
-        android:label="ExpenseTrackerApp"
+        android:label="FinTrackerApp"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

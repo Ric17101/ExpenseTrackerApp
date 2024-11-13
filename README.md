@@ -1,6 +1,6 @@
-# expense_tracker_app
+# fin_tracker_app
 
-A flutter app that can be used to Track your budget or expenses Offline
+A flutter app that can be used to Track your financial expenses Offline
 
 ## Getting Started
 

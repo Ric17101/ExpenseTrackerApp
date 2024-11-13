@@ -1,11 +1,11 @@
 {
-    "name": "expense_tracker_app",
-    "short_name": "expense_tracker_app",
+    "name": "fin_tracker_app",
+    "short_name": "fin_tracker_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A flutter app that can be used to Track your budget or expenses",
+    "description": "A flutter app that can be used to Track your financial expenses Offline",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
