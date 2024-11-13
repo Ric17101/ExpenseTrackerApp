@@ -1,4 +1,4 @@
-import 'package:fin_tracker_app/page/widget/todo_item_widget.dart';
+import 'package:fin_tracker_app/pages/widget/todo_item_widget.dart';
 import 'package:fin_tracker_app/state/async_result.dart';
 import 'package:fin_tracker_app/state/todo/todo_item_ui.dart';
 import 'package:flutter/material.dart';

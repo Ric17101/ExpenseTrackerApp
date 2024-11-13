@@ -1,5 +1,5 @@
 import 'package:async_redux/async_redux.dart';
-import 'package:fin_tracker_app/page/todo_page/todo_page.dart';
+import 'package:fin_tracker_app/pages/todo_page/todo_page.dart';
 import 'package:fin_tracker_app/state/action/actions.dart';
 import 'package:fin_tracker_app/state/app_state.dart';
 import 'package:fin_tracker_app/state/async_result.dart';
