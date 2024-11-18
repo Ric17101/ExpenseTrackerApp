@@ -25,13 +25,17 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      // appBar: AppBar(
+      //   title: const Text('Expense Tracker'),
+      //   backgroundColor: Colors.blueAccent,
+      //   foregroundColor: Colors.white,
+      // ),
       body: PageView(
         controller: _controller,
         physics: const NeverScrollableScrollPhysics(),
         children: const [
-          TodoPageConnector(),
           StatsPage(),
+          TodoPageConnector(),
           // AccountsScreen(),
           // CategoriesScreen(),
           // SettingsScreen()

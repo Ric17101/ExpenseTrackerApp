@@ -57,11 +57,6 @@ class _TodoPageState extends State<TodoPage> {
     );
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Expense Tracker'),
-        backgroundColor: Colors.blueAccent,
-        foregroundColor: Colors.white,
-      ),
       body: LayoutBuilder(
         builder: (context, constraint) => ListView(
           children: [
