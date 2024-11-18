@@ -3,6 +3,7 @@ import 'package:fin_tracker_app/state/async_result.dart';
 import 'package:fin_tracker_app/state/todo/todo_item_ui.dart';
 import 'package:flutter/material.dart';
 
+// TODO: Remove this page, used only as Template
 class TodoPage extends StatefulWidget {
   const TodoPage({
     required this.todoItemUiList,

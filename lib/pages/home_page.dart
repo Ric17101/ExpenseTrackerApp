@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:fin_tracker_app/pages/overview_page/overview_page_connector.dart';
 import 'package:fin_tracker_app/pages/todo_page/todo_page_connector.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -34,8 +35,8 @@ class _HomePageState extends State<HomePage> {
         controller: _controller,
         physics: const NeverScrollableScrollPhysics(),
         children: const [
+          OverviewPageConnector(),
           StatsPage(),
-          TodoPageConnector(),
           // AccountsScreen(),
           // CategoriesScreen(),
           // SettingsScreen()
